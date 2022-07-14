@@ -26,6 +26,7 @@ public class DBService {
 	private ChamadoRepository chamadoRepository;
 	
 	public void instanciaDB() {
+		
 		Tecnico tec1 = new Tecnico(null, "Jonathan Rafael", "78779571069", "johathanx@outlook.com", "123");
 		tec1.addPerfil(Perfil.ADMIN);
 		
