@@ -1,0 +1,71 @@
+[33mcommit 9cac0ba96dd20568a64a020e2ba6ea4106f91ff5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Sat Jul 16 17:54:12 2022 -0300
+
+    Exceção para objeto não encontrado
+
+[33mcommit d81f37931872d15b4203d6d9f6e2713116cd20a8[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Sat Jul 16 17:00:02 2022 -0300
+
+    Padrão DTO para Tecnico
+
+[33mcommit f1c2f1484717b7fbce14441b93e410836cc22dec[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Fri Jul 15 19:46:18 2022 -0300
+
+    endpoint findById para Tecnico
+
+[33mcommit c251d27e45dff318c18b5475bda9655944e89488[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Fri Jul 15 19:45:19 2022 -0300
+
+    Protegendo aplicação contra serialização
+
+[33mcommit d716aa09bb18dbc5ea32e990306f2cdb65c119af[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 19:01:27 2022 -0300
+
+    perfil de desenvolvimento
+
+[33mcommit ce6ad24bffc399ab29b83369c1c26e9fa494f254[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 18:36:16 2022 -0300
+
+    perfil de teste criado
+
+[33mcommit 47ecb9cc6bfd68e2082fa6f6170f7aeb8f9c9f22[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 17:59:52 2022 -0300
+
+    carga inicial da base de dados
+
+[33mcommit c4d036a1f68d0012d83a4f7fb7e6751dba4980fe[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 17:58:26 2022 -0300
+
+    repositories criados
+
+[33mcommit 1e99b323daba1cc74e029a913ff78161b1e37ae9[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 16:41:47 2022 -0300
+
+    anotacoes JPA para classes de dominio
+
+[33mcommit 88eae6044a5983710c0ca17e3f8e22831e36e182[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 15:44:18 2022 -0300
+
+    classes de dominio iniciadas
+
+[33mcommit 2a0f83a52476fd1b8bbe5e4e362d1cb32314ce45[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 15:11:02 2022 -0300
+
+    tipos enimerados criados
+
+[33mcommit b8b64f39109a937b7c5f10537012afa412fb83d4[m
+Author: johathanx <johathanx@outlook.com>
+Date:   Thu Jul 14 14:43:50 2022 -0300
+
+    projeto iniciado
