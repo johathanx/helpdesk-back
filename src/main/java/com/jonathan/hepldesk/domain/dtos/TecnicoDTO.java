@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -24,6 +23,13 @@ public class TecnicoDTO implements Serializable {
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	protected LocalDate dataCriacao = LocalDate.now();
 
+	
+	
+	public TecnicoDTO() {
+		super();
+		addPerfis(Perfil.CLIENTE);
+	}
+
 	public TecnicoDTO(Tecnico obj) {
 		super();
 		this.id = obj.getId();
@@ -33,6 +39,7 @@ public class TecnicoDTO implements Serializable {
 		this.senha = obj.getSenha();
 		this.perfis = obj.getPerfis().stream().map(x -> x.getCodigo()).collect(Collectors.toSet());
 		this.dataCriacao = obj.getDataCriacao();
+		addPerfis(Perfil.CLIENTE);
 	}
 
 	public Integer getId() {
