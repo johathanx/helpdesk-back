@@ -12,17 +12,11 @@ import com.jonathan.hepldesk.domain.enums.Perfil;
 import com.jonathan.hepldesk.domain.enums.Prioridade;
 import com.jonathan.hepldesk.domain.enums.Status;
 import com.jonathan.hepldesk.repositories.ChamadoRepository;
-import com.jonathan.hepldesk.repositories.ClienteRepository;
 import com.jonathan.hepldesk.repositories.PessoaRepository;
-import com.jonathan.hepldesk.repositories.TecnicoRepository;
 
 @Service
 public class DBService {
 
-	@Autowired
-	private TecnicoRepository tecnicoRepository;
-	@Autowired
-	private ClienteRepository clienteRepository;
 	@Autowired
 	private ChamadoRepository chamadoRepository;
 	@Autowired
