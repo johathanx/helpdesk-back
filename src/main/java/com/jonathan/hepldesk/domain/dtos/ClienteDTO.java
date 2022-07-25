@@ -10,16 +10,16 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.jonathan.hepldesk.domain.Tecnico;
+import com.jonathan.hepldesk.domain.Cliente;
 import com.jonathan.hepldesk.domain.enums.Perfil;
 
-public class TecnicoDTO implements Serializable {
+public class ClienteDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	protected Integer id;
 	@NotNull(message = "Campo nome Obrigadorio") 
 	protected String nome;
-	@Size(max = 11, min = 11, message = "Campo CPF deve possuir 11 caracteres")
+	@Size(max = 14, min = 11, message = "Campo CPF deve possuir 11 caracteres")
 	@NotNull(message = "Campo CPF Obrigadorio")
 	protected String cpf;
 	@NotNull(message = "Campo Email Obrigadorio")
@@ -33,12 +33,12 @@ public class TecnicoDTO implements Serializable {
 
 	
 	
-	public TecnicoDTO() {
+	public ClienteDTO() {
 		super();
 		addPerfis(Perfil.CLIENTE);
 	}
 
-	public TecnicoDTO(Tecnico obj) {
+	public ClienteDTO(Cliente obj) {
 		super();
 		this.id = obj.getId();
 		this.nome = obj.getNome();
