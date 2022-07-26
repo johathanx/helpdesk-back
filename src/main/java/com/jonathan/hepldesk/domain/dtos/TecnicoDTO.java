@@ -19,7 +19,7 @@ public class TecnicoDTO implements Serializable {
 	protected Integer id;
 	@NotNull(message = "Campo nome Obrigadorio") 
 	protected String nome;
-	@Size(max = 11, min = 11, message = "Campo CPF deve possuir 11 caracteres")
+	@Size(max = 14, min = 11, message = "Campo CPF deve possuir 11 caracteres")
 	@NotNull(message = "Campo CPF Obrigadorio")
 	protected String cpf;
 	@NotNull(message = "Campo Email Obrigadorio")
